@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(0, 67, 67);
+  color: white;
+}
+
+.clock {
+  height: 220px;
+  width: 220px;
+  padding: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.main-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.break-session, .selection-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.label {
+  font-size: 15px;
+  font-weight: 100;
+  margin: 10px 0 5px 0;
+}
+
+.increment-button {
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  cursor: pointer;
+  padding: 0;
+  background-color: rgb(142, 142, 137);
+  border: 1px solid black;
+  border-radius: 2%;
+}
+
+.length{
+  font-size: 15px;
+}
+
+.timer-section {
+  width: 180px;
+  border: 3px solid black;
+  border-radius: 5%;
+  padding: 7px;
+  margin: 10px auto 0 auto;
+  text-align: center;
+}
+
+.control-buttons {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto 0 auto;
+}
+
+.control-buttons > button {
+  width: 45px;
+  border: 1px solid black;
+  border-radius: 2%;
+  padding: 0;
+  cursor: pointer;
+  background-color: rgb(142, 142, 137);
+}
+
+.timer-label {
+  font-size: 18px;
+  letter-spacing: 1.2px;
+}
+
+.time-left {
+  font-size: 45px
+}
